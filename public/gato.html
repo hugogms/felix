@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gato</title>
+</head>
+<body>
+
+    <style>
+        img{
+            border-radius: 10px 10px 10px 10px;
+        }
+
+        body{
+            background-color: rgb(255, 210, 178);
+        }
+
+        .container{
+
+
+            display: flex;
+            flex-direction:row;
+            background-color: rgba(255, 114, 58, 0.847);
+            gap: 20px;
+            border-radius: 10px 10px 10px 10px;
+
+
+
+            margin-top: 150px;
+            margin-left: 100px;
+            margin-right: 100px;
+            margin-bottom: 200px;
+
+            border: 4px solid rgb(255, 21, 0);
+
+            padding-top: 31px;
+            padding-left: 50px;
+            padding-right: 200px;
+            padding-bottom: 31px;
+
+        }
+        
+        .formulario{  
+            
+            
+            padding-left: 20px;
+            padding-right: 10px;
+           
+           
+        }
+     
+         button:hover {
+            background-color: rgb(255, 186, 157);
+            color: rgb(49, 49, 49);
+            transition-duration: 0.4s;
+            
+        }
+
+        p{
+            font-size: 21px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        h1{
+            color: aliceblue;
+            font-family: Arial, Helvetica, sans-serif;
+            
+        }
+
+        button {
+            font-size: 27px;
+            color: rgb(255, 0, 0);
+            font-family: Arial, Helvetica, sans-serif;
+            border-radius: 10px 10px 10px 10px;
+            margin-top: 10px;
+        }
+            input{
+           border-radius: 10px 10px 10px 10px;
+            color: black;
+            font-size: 24px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        
+    </style>
+
+    <div class="container">
+        <img src="../img/gato2.jpg" alt="gato" width="410" height="410">
+
+          <div class="formulario">
+            <h1>Faça seu cadastro</h1>
+            <p>Nome:</p>
+                <input type="text" id="nome" placeholder="Coloque seu nome">
+            <p>Email:</p>
+                <input type="text" id="mail" placeholder="Preencha com E-mail">
+            <p>Idade:</p>
+                <input type="text" id="idade" placeholder="Coloque a sua idade">
+                <br>
+                <button type="button" style="padding-right: 19px;"> Cadastrar
+                </button>
+                <button type="button" style="padding-right: 51px;" > Apagar
+                </button>
+
+            </div>
+    </div>
+</body>
+</html>
+
+
+<!--
+    -->
