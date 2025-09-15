@@ -14,5 +14,4 @@ Esse é um projeto web que engloba aprendizado sobre HTML5, CSS3, Bootstrap E Ja
 Link: 
 
 ### Link Projeto:
-https://venular19.github.io/felix/
-https://github.com/venular19/felix/blob/main/README.md
+
