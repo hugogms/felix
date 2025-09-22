@@ -22,6 +22,7 @@ cards:
 
 http://127.0.0.1:5500/public/cards.html
 
+README
 https://github.com/hugogms/felix/edit/main/README.md
 
 
